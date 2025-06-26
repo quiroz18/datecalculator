@@ -1,0 +1,79 @@
+body {
+  background-color: #1f2a52;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #27326b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.buttons {
+  margin: 20px 0;
+}
+button {
+  background-color: #fbc707;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #e02424;
+  color: white;
+}
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: none;
+}
+.result {
+  background-color: #141b3d;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+button.selected {
+  background-color: #e02424;
+  color: white;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

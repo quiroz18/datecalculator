@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enrollment Completion Date Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Enrollment Completion Date Calculator</h1>
+    <p>Which clearinghouse is this?</p>
+    <div class="buttons">
+      <button id="availityBtn">Availity</button>
+      <button id="eligibleBtn">Eligible</button>
+    </div>
+    <div class="form">
+      <label for="submittedDate">When was the enrollment submitted?</label>
+      <input type="date" id="submittedDate" />
+      <div id="weeksInput" style="display: none;">
+        <label for="calendarWeeks">How many calendar weeks does the enrollment need to be approved?</label>
+        <input type="number" id="calendarWeeks" placeholder="e.g. 9" />
+      </div>
+      <button id="calculateBtn">Calculate</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+<footer class="footer">App Developed by Ricardo Quiroz</footer>
+</body>
+</html>
